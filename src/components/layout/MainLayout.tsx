@@ -9,7 +9,7 @@ export function MainLayout() {
   const [currentRole, setCurrentRole] = useState('super-admin');
 
   return (
-    <div className="min-h-screen bg-background dark">
+    <div className="min-h-screen bg-background">
       <Sidebar 
         collapsed={sidebarCollapsed} 
         onToggle={() => setSidebarCollapsed(!sidebarCollapsed)} 
